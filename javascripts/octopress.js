@@ -97,6 +97,7 @@ function wrapFlashVideos() {
       $(object).wrap('<div class="flash-video">')
     }
   });
+  //$('iframe[src*=vimeo],iframe[src*=youtube]').wrap('<div class="flash-video">')
   $('iframe[src*=vimeo],iframe[src*=youtube]').wrap('<div class="flash-video">')
 }
 
