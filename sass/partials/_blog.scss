@@ -84,7 +84,7 @@ article {
 }
 article + article {
   .blog-index & {
-    background: $img-border top left repeat-x;
+   background: $img-border top left repeat-x;
   }
 }
 #content .blog-index {

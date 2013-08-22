@@ -6,16 +6,21 @@
 //$header-padding-bottom: 1.5em;
 
 //$max-width: 1350px;
+$max-width: 1450px;
 //$indented-lists: true;
 
 // Padding used for layout margins
-//$pad-min: 18px;
+//$pad-min: 0px;
 //$pad-narrow: 25px;
-//$pad-medium: 35px;
-//$pad-wide: 55px;
+$pad-medium: 25px;
+//$pad-wide: 0px;
 
 // Sidebar widths used in media queries
 //$sidebar-width-medium: 240px;
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
+//$sidebar-width-medium: 0px;
+//$sidebar-pad-medium: 0px;
+//$sidebar-pad-wide: 0px;
+//$sidebar-width-wide: 0px;

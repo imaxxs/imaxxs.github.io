@@ -98,6 +98,7 @@ function wrapFlashVideos() {
     }
   });
   $('iframe[src*=vimeo],iframe[src*=youtube]').wrap('<div class="flash-video">')
+  $('iframe[src*=vimeo],iframe[src*=youtube]').wrap('<div class="flash-video">')
 }
 
 function renderDeliciousLinks(items) {
@@ -110,9 +111,9 @@ function renderDeliciousLinks(items) {
 }
 
 $('document').ready(function() {
-  testFeatures();
-  wrapFlashVideos();
-  flashVideoFallback();
+  //testFeatures();
+  //wrapFlashVideos();
+  //flashVideoFallback();
   addCodeLineNumbers();
   getNav();
   addSidebarToggler();

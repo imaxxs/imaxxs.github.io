@@ -15,10 +15,10 @@ $header-subtitle-font-family: $heading-font-family !default;
 .mono { font-family: $mono; }
 
 body > header h1 {
-  font-size: 2.2em;
+  font-size: 2.0em;
   @extend .heading;
   font-family: $header-title-font-family;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.2em;
   margin-bottom: 0.6667em;
 }
@@ -32,7 +32,8 @@ body {
   @extend .serif;
 }
 h1 {
-  font-size: 2.2em;
+  //font-size: 2.2em;
+  font-size: 1.5em;
   line-height: 1.2em;
 }
 
@@ -45,7 +46,7 @@ h1 {
   @extend .heading;
   text-rendering: optimizelegibility;
   margin-bottom: 1em;
-  font-weight: bold;
+  font-weight: normal;
 }
 h2, section h1 {
   font-size: 1.5em;
